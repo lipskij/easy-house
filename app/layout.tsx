@@ -17,6 +17,9 @@ const fredoka = Fredoka({
 export const metadata: Metadata = {
   title: "Easy House",
   description: "Open the doors to easy house",
+  icons: {
+    icon: "/favicon.ico", // /app/icon.png
+  },
 };
 
 export default function RootLayout({
