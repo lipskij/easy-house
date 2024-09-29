@@ -15,8 +15,8 @@ const fredoka = Fredoka({
 });
 
 export const metadata: Metadata = {
-  title: "My Website",
-  description: "Created with Next.js",
+  title: "Easy House",
+  description: "Open the doors to easy house",
 };
 
 export default function RootLayout({
@@ -26,9 +26,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${archivo.variable} ${fredoka.variable}`}>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className="min-h-screen flex flex-col items-center">
         <div className="w-full">
-          {/* <Navigation /> */}
           <main className="flex-grow">{children}</main>
         </div>
       </body>
