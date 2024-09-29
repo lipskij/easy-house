@@ -162,7 +162,7 @@ const Navigation: React.FC = () => {
                 </Link>
               ))}
             </div>
-            <div className="absolute right-4 md:hidden">
+            <div className="absolute right-4 md:hidden z-50">
               <button
                 className="text-white focus:outline-none z-50"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
