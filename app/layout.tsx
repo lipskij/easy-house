@@ -29,6 +29,9 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className="min-h-screen flex flex-col items-center">
         <div className="w-full">
           <main className="flex-grow">{children}</main>
